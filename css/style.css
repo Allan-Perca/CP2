@@ -63,6 +63,12 @@ p {
     line-height: 1.6rem;
 }
 
+figcaption {
+    background-color: #ed145b;
+    color: #fff;
+    padding: 1rem 0;
+}
+
 ::-webkit-scrollbar {
     width: 4px;
     height: 6px;
@@ -89,21 +95,18 @@ p {
 }
 
 .informations {
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
     text-align: center;
     row-gap: 1rem;
-    margin: 6rem 0;
+    padding: 6rem 0;
 }
-
 
 .informations>h1 {
     max-width: min-content;
 }
-
 
 .section {
     display: flex;
@@ -112,7 +115,7 @@ p {
     column-gap: 2rem;
     row-gap: 5rem;
     text-align: center;
-    padding: 6rem 15rem;;
+    padding: 6rem 15rem;
     max-width: 120rem;
     margin: 0 auto;
 }
@@ -137,12 +140,6 @@ p {
     border-radius: 1.2rem;
     height: 100%;
     overflow: hidden;
-}
-
-.container-card > figcaption {
-    background-color: #ed145b;
-    color: #fff;
-    padding: 1rem 0;
 }
 
 @media (max-width: 1200px) {
