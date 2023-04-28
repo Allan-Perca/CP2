@@ -22,7 +22,6 @@
 
 .header-nav>a {
     display: flex;
-    height: fit-content;
     transition: all .1s linear;
     padding-bottom: .5rem;
     border-bottom: 0.1rem solid transparent;
