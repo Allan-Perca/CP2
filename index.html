@@ -1,71 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>HOME</title>
-</head>
-
-<body>
-
-    <header>
-
-        <img src="./img/home.png" alt="dispositivos eletrônicos">
-        <nav>
-            <a href="./pages/games.html">GAMES</a>
-            <a href="./pages/mobile.html">MOBILE</a>
-            <a href="./pages/tecnologia.html">TECNOLOGIA</a>
-        </nav>
-
-    </header>
-
-    <section>
-       
-        <article>
-            
-            <h2><b>Games</b></h2>
-            <figure>
-                <img src="./img/games.png" alt="controles de video-game">
-                <figcaption>Games</figcaption>
-            </figure>
-
-        </article>
-        
-        <article>
-
-            <h2><b>Mobile</b></h2>
-            <figure>
-                <img src="./img/mobile.png" alt="celulares">
-                <figcaption>Mobile</figcaption>
-            </figure>
-
-        </article>
-        
-        <article>
-
-            <h2><b>Tecnologia</b></h2>
-            <figure>
-                <img src="./img/tecnologia.png" alt="chip de computador acesso em em azul com numeros flutuantes">
-                <figcaption>Tecnologia</figcaption>
-            </figure>
-
-        </article>
-        
-    </section>
-
-    <footer>
-        
-        <h2>Fale conosco</h2>
-        
-        <nav>
-            <a href="https://github.com/"><img src="./img/social-1.png" alt="logo github"></a>
-            <a href="https://www.facebook.com/"><img src="./img/social-2.png" alt="logo facebook"></a>
-            <a href="https://twitter.com/"><img src="./img/social-3.png" alt="logo twitter"></a>
-        </nav>
-
-    </footer>
-
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>HOME</title>
+    </head>
+    <body>
+        <header class="header-content">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="./img/logo_white_fiap.png" alt="Logo da Fiap branco escrito em letras maiúsculas e fundo transparente">
+                </a>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html">HOME</a>
+                <a href="./pages/games.html">GAMES</a>
+                <a href="./pages/mobile.html">MOBILE</a>
+                <a href="./pages/tecnologia.html">TECH</a>
+            </nav>
+        </header>
+        <section class="informations background-brand">
+            <h1>Assuntos favoritos</h1>
+            <h2>Checkpoint 2 - responsive
+                <br>web development
+            </h2>
+        </section>
+        <section class="home-section">
+            <article class="container">
+                <h2 class="container-title">Games</h2>
+                <figure class="container-card card-games">
+                    <img src="./img/games_image.png" alt="Imagem de uma loja de games, com máquinas escrito no monitor 'King of games' em letras maiúsculas">
+                    <figcaption>Games</figcaption>
+                </figure>
+            </article>
+            <article class="container">
+                <h2 class="container-title">Mobile</h2>
+                <figure class="container-card card-mobile">
+                    <img src="./img/mobile_image.png" alt="Imagem de uma mão que segura um celular enquanto tira uma foto da paisagem">
+                    <figcaption>Mobile</figcaption>
+                </figure>
+            </article>
+            <article class="container">
+                <h2 class="container-title">Tech</h2>
+                <figure class="container-card card-tech">
+                    <img src="./img/tech_image.png" alt="Imagem de um computador antigo com a escrita 'CBM' e outros dispositivos antigos ao lado como um teclado">
+                    <figcaption>Tech</figcaption>
+                </figure>
+            </article>
+        </section>
+        <footer class="footer-content">
+            <h2>Fale conosco</h2>
+            <nav class="footer-nav">
+                <a class="footer-logo" href="https://github.com/">
+                    <img src="./img/social-1.png" alt="Logo do github composto pela forma de um gato branco com fundo preto">
+                </a>
+                <a class="footer-logo" href="https://www.facebook.com/">
+                    <img src="./img/social-2.png" alt="Logo do facebook composto por um f minúsculo com o fundo preto">
+                </a>
+                <a class="footer-logo" href="https://twitter.com/">
+                    <img src="./img/social-3.png" alt="Logo do twitter composto pela forma de um pássaro com o fundo preto">
+                </a>
+            </nav>
+        </footer>
+    </body>
 </html>

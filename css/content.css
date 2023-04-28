@@ -1,0 +1,71 @@
+
+.background-brand {
+    background-image: url("../img/background_effects.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 110% auto;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    row-gap: 1rem;
+    padding: 6rem 0;
+}
+
+.informations>h1 {
+    max-width: min-content;
+}
+
+.home-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    text-align: center;
+    padding: 6rem 15rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.pages-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    text-align: center;
+    padding: 6rem 15rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.container {
+    flex-grow: 1;
+    flex-basis: 28.8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.container-title {
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #ed145b;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.container-card {
+    border-radius: 1.2rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 900px) {
+    .home-section, .pages-section {
+        padding: 3.5rem 1.5rem;
+    }
+}
