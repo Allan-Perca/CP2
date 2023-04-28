@@ -1,0 +1,17 @@
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 7.5rem;
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    column-gap: 2rem;
+}
+
+.footer-logo {
+    width: 3rem;
+}
